@@ -6,18 +6,27 @@ double rerata(double a, double b) {
 }
 
 string status(double c) {
-    if (c <= 70)
+    if (c >= 70)
         return "Diterima";
     else
         return "Ditolak";
 }
 
 string status2(double rata, double nil) {
-    if (rata <= 70 || nil > 80)
+    if (rata >= 70 || nil > 80)
         return "Diterima";
     else
         return "Ditolak";
 }
+
+int main()
+{
+    char nama[50];
+    cout << "Masukan Nama :";
+    cin >> nama;
+    cout << endl;
+}
+
 
 int main()
 {
