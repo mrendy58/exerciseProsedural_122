@@ -25,7 +25,7 @@ int main()
     cout << "Masukan Nama :";
     cin >> nama;
     cout << endl;
-}
+} 
 
 
 int main()
