@@ -19,22 +19,21 @@ string status2(double rata, double nil) {
         return "Ditolak";
 }
 
+
 int main()
 {
     char nama[50];
     cout << "Masukan Nama :";
     cin >> nama;
     cout << endl;
-} 
 
 
-int main()
-{
     double nilM, nilB;
     cout << "Masukan nilai Matematika :";
     cin >> nilM;
     cout << "Masukan nilai Bahasa Inggris :";
     cin >> nilB;
+    cout << "Nama Kandidat : " << nama << endl;
     cout << "\nstatus kelulusan =" << status(rerata(nilM, nilB));
     cout << "\nstatus kelulusa ke 2 =" << status(rerata(nilM, nilB));
     return 0; 
