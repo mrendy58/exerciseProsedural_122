@@ -28,7 +28,7 @@ int main()
     cin >> nilB;
     cout << "\nstatus kelulusan =" << status(rerata(nilM, nilB));
     cout << "\nstatus kelulusa ke 2 =" << status(rerata(nilM, nilB));
-    return 0;
+    return 0; 
 }
 
 
